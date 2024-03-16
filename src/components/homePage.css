@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+
+body {
+    overflow-x: hidden;
+    margin: 0%;
+    padding: 0%;
+    font-family: JetBrains;
+}
+
+
+
+.mainBox {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #ACE4E3;
+    position: sticky;
+    top: 0;
+    z-index: -1;
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    h1 {
+        font-size: 4rem;
+        font-family: JetBrains;
+
+        span {
+            margin-left: 300px;
+            font-family: JetBrains;
+        }
+    }
+}
+
+.mainBox2 {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: transparent;
+    position: sticky;
+    top: 0;
+    box-sizing: border-box;
+
+    .p1 {
+        left: 10%;
+        top: 10%;
+    }
+
+    .p2 {
+        right: 10%;
+        top: 10%;
+    }
+
+    .p3 {
+        left: 10%;
+        bottom: 10%;
+    }
+
+    .p4 {
+        right: 10%;
+        bottom: 10%;
+    }
+
+    .content {
+        position: absolute;
+        font-size: 1.5rem;
+    }
+}
+.mainBox3{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #0B4350;
+    position: sticky;
+    top: 0;
+    color: #ffffff;
+    box-sizing: border-box;
+    padding: 10%;
+    p{
+        margin: 0%;
+        padding: 0;
+        font-size: 4rem;
+        span{
+            color: #ACE4E3;
+        }
+    }
+}
+
+.main_Box_cercil{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: #003E29;
+    position: sticky;
+    top: 0;
+    color: #ffffff;
+    box-sizing: border-box;
+    padding: 10%;
+}
+.cercil{
+    width: 30vw;
+    height: 30vw;
+    border-radius: 50%;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    color: black;
+    font-size: 2.5rem;
+}
+
+.buttonPageBox{
+    width: 100vw;
+    height: 100vh;
+    background-color: #ACE4E3;
+    position: sticky;
+    top: 0;
+    color: #ffffff;
+    overflow: hidden;
+}
+.Box1{
+width: 120%;
+height:45%;
+margin-left: -20%;
+transform: rotate(-10.5deg);
+transform-origin:left;
+background-color: #F58BCF;
+
+}
+.Box2{
+width: 15vh;
+height: 15vh;
+border-radius: 50%;
+background-color: #E7E6AD;
+position: relative;
+bottom: -8.5%;
+animation: any 2s ;
+
+}
+@keyframes any {
+    to{
+       left: -100%;
+    }
+}
+.Box3{
+    width: 120%;
+    height:45%;
+    margin-left: -20%;
+    transform: rotate(10.5deg);
+    transform-origin:left;
+    background-color: #F58BCF; 
+}
